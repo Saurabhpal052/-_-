@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>To-Do-List</title>
+</head>
+<body>
+    <div class="heading"><h1>To-Do-List</h1></div>
+    <div class="container">
+        <div class="entry">
+            <form id="myform">
+                <input type="text" id="title" value="" placeholder="Enter your title"><br>
+                <textarea type="text" id="detail" name="detail" value="" placeholder="Enter your work detail"></textarea><br>
+                <input type="button" onclick="task_input()" id="submit" name="submit" value="ADD">
+            </form>
+            
+        </div>
+        <div class="project">
+             <button id="Pending" onclick="pending_tasks()" ><p>Pending_Tasks</p></button>
+             <button id="Completed" onclick="completed_tesks()"><p>Completed_Tasks</p></button>
+             <div class="data1">
+                <div id="boxes1" class="box box1"><textarea class="cells" id="text1" style="font-size:15px; font-weight: bold;">Done</textarea></div>
+                <div id="boxes2" class="box box2"><p><textarea class="cells" id="text2" style="font-size:25px;font-weight: bold;">Title</textarea></p></div>
+                <div id="boxes3" class="box box3"><textarea class="cells" id="text3" style="font-size:25px;font-weight: bold;">Description</textarea></div>
+                <div id="boxes4" class="box box4"><textarea class="cells" id="text4" style="font-size:25px;font-weight: bold;">Adding Time</textarea></div>
+                <div id="boxes5" class="box box5"><textarea class="cells" id="text5" style="font-size:22px;font-weight: bold;">Activity</textarea></div>
+             </div>
+             
+             <div class="data" id="data">
+
+             </div>
+            
+             
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

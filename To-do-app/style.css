@@ -1,0 +1,260 @@
+*{
+    font-family:'Fira sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+h1{
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 0px;
+    padding-top: 20px;
+    
+
+}
+.container{
+    background-color: antiquewhite;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.entry{
+    background-color: rgb(164, 164, 164);
+    border-radius: 20px;
+    height: 70%;
+    width: 30%;
+    border-style: inset;
+    border: 1px;
+    border-color: black;
+}
+#myform{
+    height: 100%;
+    width: 100%;
+}
+#title{
+    background-image: linear-gradient( rgb(243, 242, 242), rgb(198, 193, 193) );
+    border: 1px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 2px;
+    margin: 10px;
+    height: 11%;
+    width:94%;
+    border-radius: 10px;
+    text-align: center;
+    font-size: large;
+    outline: none;
+    
+    
+    
+}
+
+#detail{
+    background-image:linear-gradient( rgb(238, 234, 234), rgb(198, 193, 193) );
+    margin: 20px;
+    margin-left: 15px;
+    height: 50%;
+    width: 92%;
+    border-radius: 10px;
+    border: 1px;
+    border-style: inset;
+    border-color: black;
+    font-size: x-large;
+    outline: none;
+    resize: none;
+
+
+}
+#submit{
+    background-color: rgb(92, 212, 92);
+    border: 1px;
+    border-style: inset;
+    border-color: black;
+    border-radius: 2px;
+    margin-left: 120px;
+
+    height: 11%;
+    width:50%;
+    border-radius: 40px;
+    font-size: large;
+    outline: none;
+    cursor: pointer;
+    
+}
+#submit:hover{
+    color: white;
+}
+
+.project{
+    background-color: rgb(164, 164, 164);
+    border-radius: 20px;
+    height: 70%;
+    width: 50%;
+    border-style: inset;
+    border: 0px;
+    border-color: black;
+}
+.project  button {
+    background-color: rgb(164, 164, 164);
+    border: none;
+    border-radius: 20px;
+    margin: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    cursor: pointer;
+    height: 10%;
+    margin-bottom: 0%;
+}
+.project button:hover{
+    background-image:linear-gradient( rgb(238, 234, 234), rgb(198, 193, 193) ); 
+    
+
+}
+.project button::after{
+    background-image:linear-gradient( rgb(238, 234, 234), rgb(198, 193, 193) ); 
+}
+.project button :active{
+    background-image:linear-gradient( rgb(238, 234, 234), rgb(198, 193, 193) ) ;
+}
+.project button:focus{
+    background-image:linear-gradient( rgb(238, 234, 234), rgb(198, 193, 193) ) ;
+}
+.data1{
+    background-color: aliceblue;
+    height: 10%;
+    width: 100%;
+    background-image:linear-gradient( rgb(238, 234, 234), rgb(198, 193, 193) ); 
+   
+    padding-top: 10px;
+    border-style: inset;
+    border: 1px;
+    border-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+    
+    
+    
+}
+#data{
+    background-color: aliceblue;
+    height: 80%;
+    width: 100%;
+    background-image:linear-gradient( rgb(238, 234, 234), rgb(198, 193, 193) ); 
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-top: 10px;
+    border-style: inset;
+    border: 1px;
+    border-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr ;
+
+}
+#text1{
+    
+    font-size:15px; 
+    font-weight: bold;
+}
+.box2{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.box2c{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin: 0px;
+}
+.box3{
+    grid-column-start: 5;
+    grid-column-end: 10;
+}
+.box3c{
+    grid-column-start: 4;
+    grid-column-end: 9;
+    margin: 0px;
+
+}
+.box4{
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+.box4c{
+    grid-column-start: 9;
+    grid-column-end: 13;
+    margin: 0px;
+
+}
+.box5{
+    grid-column-start: 13;
+    grid-column-end: 15;
+}
+.box7{
+    grid-column-start: 2;
+    grid-column-end: 5;
+}
+.box8{
+    grid-column-start: 5;
+    grid-column-end: 10;
+}
+.box9{
+    grid-column-start: 10;
+    grid-column-end: 13;
+}
+
+.box{
+
+    background: transparent;
+    border: 0px;
+    justify-content: center;
+    text-align: center;
+}
+.box p{
+    margin: 0px;     
+    height: 100%;
+    width: 100%;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cells{
+   /* background-image:linear-gradient( rgb(238, 234, 234), rgb(198, 193, 193) );*/
+   background: transparent;
+    height: 80%;
+    width: 100%;
+    resize: none;
+    outline: none;
+    border: none;
+
+    justify-content: center;
+    text-align: center;
+    font-size: large;
+}
+
+.img-com{
+    padding-left: 30%;
+   height: 45%;
+   width: 70%;
+    
+}
+.img-edit{
+    padding-left: 30%;
+   height: 45%;
+   width: 70%;
+    
+}
+.img-del{
+    padding-left: 30%;
+   height: 45%;
+   width: 70%;
+    
+}

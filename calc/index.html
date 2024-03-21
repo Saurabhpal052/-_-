@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="container">
+       
+         <div class="calculator">
+            <div class="keys" id="box"><div id="remb"></div><div id="result"><p></p></div></div>
+            <div class="keys operator" id="openp"><button onclick="solution('(')"><p>(</p></button></div>
+            <div class="keys operator" id="closep"><button onclick="solution(')')"><p>)</p></button></div>
+            <div class="keys operator" id="ans"><button onclick="solution('ans')"><p>ans</p></button></div>
+            <div class="keys operator" id="del"><button onclick="solution('del')"><p>del</p></button></div>
+            <div class="keys operator" id="clear"><button onclick="solution('clear')"><p>clear</p</button></div>
+            <div class="keys operands" id="key7"><button onclick="solution('7')"><p>7</p></button></div>
+            <div class="keys operands" id="key8"><button onclick="solution('8')"><p>8</p></button></div>
+            <div class="keys operands" id="key9"><button onclick="solution('9')"><p>9</p></button></div>
+            <div class="keys operator" id="key%"><button onclick="solution('%')"><p>%</p></button></div>
+            <div class="keys operator" id="keyroot"><button onclick="solution('**2')"><p>x<sup>2</sup></p></button></div>
+            <div class="keys operands" id="key4"><button onclick="solution('4')"><P>4</p></button></div>
+            <div class="keys operands" id="key5"><button onclick="solution('5')"><P>5</p></button></div>
+            <div class="keys operands" id="key6"><button onclick="solution('6')"><P>6</p></button></div>
+            <div class="keys operator" id="key*"><button onclick="solution('*')"><P>*</p></button></div>
+            <div class="keys operator" id="key/"><button onclick="solution('/')"><P>/</p></button></div>
+            <div class="keys operands" id="key1"><button onclick="solution('1')"><P>1</p</button></div>
+            <div class="keys operands" id="key2"><button onclick="solution('2')"><P>2</p></button></div>
+            <div class="keys operands" id="key3"><button onclick="solution('3')"><P>3</p></button></div>
+            <div class="keys operator" id="key+"><button onclick="solution('+')"><P>+</p></button></div>
+            <div class="keys operator" id="key-"><button onclick="solution('-')"><P>-</p></button></div>
+            <div class="keys operator" id="key."><button onclick="solution('.')"><P>.</p></button></div>
+            <div class="keys operands" id="key0"><button onclick="solution('0')"><P>0</p></button></div>
+            <div class="keys operator" id="both"><button onclick="solution('±')"><P>±</p></div>
+            <div class="keys operator" id="enter"><button onclick="solution('enter')"><p>ENTER</p></button></div>
+         </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

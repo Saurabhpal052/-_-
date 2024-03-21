@@ -1,0 +1,102 @@
+body{
+    background-color: rgb(135, 177, 201);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    background-image: url("./assets/background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    width: 100vh;
+    margin-top: 5%;
+}
+.calculator{
+    background-color: bisque;
+    height:80% ;
+    width: 50%;
+    
+  display: grid;
+  border-radius: 10px;
+  
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+   column-gap: 10px;
+  padding: 10px;
+
+}
+.keys{
+    margin-top: 15px;
+    
+    background-color: rgb(100, 170, 224);
+    text-align: center;
+    
+    border-radius: 10px;
+    height: 60%;
+    width: 100%;
+
+}
+.operands{
+    background-color: rgb(161, 197, 236);
+    font-weight: bold;
+}
+
+.keys > p{
+    display:inline-block;
+    vertical-align: middle;
+    line-height: 0.75;
+    
+}
+.keys button{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    overflow: hidden;
+}
+.operator{
+    color: rgb(24, 6, 215);
+    font-weight: lighter;
+    
+}
+#enter{
+    color: white;
+}
+#box{
+    background-color: rgb(161, 197, 236);
+    position: relative;
+   margin-top: 12px;
+    height: 90%;
+    width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    
+    bottom: 5px;
+    border-radius: 10px;
+
+}
+#remb{
+    width: 98%;
+    margin-top: 2px;
+    font-weight: lighter;
+    font-size: large;
+    text-align: right;
+    
+}
+#result{
+    position: absolute;
+    width: 98%;
+    bottom: 3px;
+    font-weight: bold;
+    font-size: xx-large;
+    text-align: right;
+}
+
+
+#enter{
+    grid-column-start: 4;
+    grid-column-end: 6;
+}
+
